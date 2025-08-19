@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 100px;
+    text-align: center; 
+}
+
+input{
+    width: 270px;
+    height: 38px;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    border-color: #DBDBDB;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 36px;
+}
+
+p{
+    font-family: "Roboto";
+    font-size: 14px;
+
+}
+
+.div-direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.log-facebook{
+    color: #0095F6;
+    font-weight: 450;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.img-frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 32px;
+}
+
+.link{
+    color: #4150F7;
+    font-weight: 450;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+button{
+    width: 270px;
+    height: 32px;
+    background-color: #4A5DF9;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-top: 16px;
+    opacity: 0.7;
+}
+
+button:hover{
+    opacity: 1;
+}
+
+.parte2{
+    margin-top: 26px;
+}
+
+.facebook{
+    margin-top: 22px;
+}
+
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+.forgot{
+    margin-top: 25px;
+}
